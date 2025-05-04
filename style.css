@@ -154,6 +154,24 @@ h2  {
     align-content: flex-end;
 }
 
+.spicebowl { 
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    justify-self: center;
+    height: 460px;
+    width: auto;
+    padding: 20px;
+}
+
+#spicecaption {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    flex-direction: row;
+    align-self: flex-end;
+    background-color: #0e95e4;
+    padding: 5px;
+}
 
 footer {
     flex: auto;
