@@ -5,41 +5,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title><script src="app.js" defer></script>
     <link rel="stylesheet" href="./style.css">
+    <audio id="abFire" src="/music/fire.mp3" autoplay loop></audio>
 </head>
 <body>
     <header>
         <img id="logo" src="./images/spicey.png" alt="logo"> 
         <nav>
         <ul>
-            <a href="#Peppers">Peppers</a>
-            <a href="#Chillis">Chillis</a>
-            <a href="#Spices">Spices</a>
-            <a href="#Socials">Socials</a>
+        <a href="#Peppers">Peppers</a>
+        <a href="#Chillis">Chillis</a>
+        <a href="#Spices">Spices</a>
+        <a href="#Socials">Socials</a>
         </ul>
     </nav>
 </header>
 <main>
 <div id="Peppers">
+    <div class="pepperbowl">
+    <img src="images/bowlofpeppers.png" alt="bowlofpeppers">
+    <p id="peppercaption">Bell peppers are a great source of vitamins A, C and K</p></div>
     <h1>Peppers</h1>
-    <h2>They're kinda hot, kinda juicy</h2>
-    <button class="button">Hot, but not a lot!</button>
+    <h2>They're kinda sweet, kinda juicy</h2>
+    <a href="./images/bellpepperscale.png"><button class="button">Ring my bell peppers!</button></a>
 </div>
 <div id="Chillis">
+    <div class="chillibowl">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/d/d3/Chilli_pepper.jpg" alt="bowlofchillis">
+        <p id="chillicaption">Chilli peppers are botanically fruits, not vegetables</p></div>
     <h1>Chillis</h1>
     <h2>The heart of heat</h2>
-    <button class="button">HOW HOT!!?</button>
+    <a href="./images/reaperscale.png"><button class="button">HOW HOT!!?</button></a>
 </div>
 <div id="Spices">
+    <!-- <div class="chillibowl">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/d/d3/Chilli_pepper.jpg" alt="bowlofchillis">
+        <p id="chillicaption">Chilli peppers are botanically fruits, not vegetables</p></div> -->
     <h1>Spices</h1>
     <h2>Too Spicy</h2>
-    <button class="button">Variety is..</button>
+    <a href="https://www.spiceoflifesoho.com"><button class="button">Variety is..</button></a>
 </div>
 <footer id="Socials">
     <a href="mailto:garf22@hotmail.com"><img id="icon" src="images/emailicon.png" alt="email"></a>
-    <a href=""><img id="icon" src="images/twitterlogo.png" alt="twitter"></a>
-    <a href="">
+    <a href="https://www.flickr.com/photos/glycerineclown/"><img id="icon" src="images/flickricon.png" alt="flickr"></a>
+    <a href="https://github.com/powdamunky/week01-assignment">
     <img id="icon" src="images/githubicon.png" alt="github"></a>
 </footer>
+<button onclick="topFunction()" id="bttBtn" title="Back to top">Back To Top</button>
 </main>
 </body>
 </html>
