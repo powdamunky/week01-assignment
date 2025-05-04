@@ -16,3 +16,13 @@ document.documentElement.scrollTop = 0;
 }
 
 document.getElementById("abFire").loop = true;
+
+function playMusic() {
+  var audio = document.getElementById("abFire");
+  audio.play();
+}
+
+function pauseMusic() {
+  var audio = document.getElementById("abFire");
+  audio.pause();
+}
